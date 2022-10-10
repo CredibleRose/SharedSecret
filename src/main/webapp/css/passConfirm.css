@@ -1,0 +1,74 @@
+body {
+    font-family: Montserrat, serif;
+    font-size: 15px;
+}
+input[type=password]{
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+h2 {
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+/*.passneed{*/
+/*    position: fixed;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*}*/
+.passneed_body{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+.passneed_cont{
+    background-color: #fff;
+    color: #000;
+    max-width: 800px;
+}
+hr {
+    border: 0;
+    margin-bottom: 20px;
+    border-top: 1px solid #d5d2d2;
+    border-bottom: 1px solid #fff;
+}
+.passneed_btn{
+    background-color: #995a5a;
+    color: white;
+    width: 100%;
+    font-size: 15px;
+    margin-top: 7px;
+    padding: 12px 20px;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    text-align: center;
+    user-select: none
+
+}
+.passneed_btn:hover{
+    filter: brightness(120%);
+}
+
+.passneed_btn:active{
+    filter: brightness(90%);
+}
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75 {
+        width: 100%;
+        margin-top: 0;
+    }
+    .passneed_btn {
+        width: 100%;
+        margin-top: 0;
+    }
+}

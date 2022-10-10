@@ -1,0 +1,73 @@
+body {
+    font-family: Montserrat, serif;
+    font-size: 17px;
+}
+input[type=text], select, textarea{
+    /*background: #e7f7fc;*/
+    /*background: #ecebeb;*/
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    font-family: Montserrat, Serif;
+    font-size: 13px;
+    font-weight: bold;
+  }
+.header {
+    display: flex;
+}
+h2 {
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+.iconLetter {
+    margin-top: 29px;
+    margin-left: 10px;
+}
+.responseBtn {
+    margin-top: 5px;
+    background-color: #995a5a;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid;
+    padding: 12px 20px;
+    width: 45%;
+    font-size: 15px;
+    font-family: Montserrat, Serif;
+}
+.responseBtn:hover {
+    filter: brightness(120%);
+}
+
+.responseBtn:active {
+    filter: brightness(90%);
+}
+hr {
+    border: 0;
+    margin-bottom: 20px;
+    border-top: 1px solid #d5d2d2;
+    border-bottom: 1px solid #fff;
+}
+.container {
+    max-width: 640px;
+    margin: 0 auto;
+}
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+  }
+  
+  @media screen and (max-width: 600px) {
+    /*.col-25, .col-75 {*/
+    /*  width: 100%;*/
+    /*  margin-top: 0;*/
+    /*}*/
+    .responseBtn {
+        width: 55%;
+        margin-top: 0;
+      }
+  }

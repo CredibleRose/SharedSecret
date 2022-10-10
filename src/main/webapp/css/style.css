@@ -1,0 +1,190 @@
+body {
+  font-family: Montserrat, serif;
+  font-size: 15px;
+}
+h2 {
+  font-family: Montserrat, serif;
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+hr {
+  width: 50%;
+  float: left;
+  border: 0;
+  margin-bottom: 20px;
+  border-top: 1px solid #d5d2d2;
+  border-bottom: 1px solid #fff;
+}
+input[type=text], textarea{
+    width: 100%;
+    font-family: Montserrat, serif;
+    font-size: 13px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+select {
+    width: 20%;
+    font-family: Montserrat, serif;
+    font-size: 13px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+.share {
+  width: 75%;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+  
+input[type=password]{
+    width: 20%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  .image{
+    background-color: #995a5a;
+    padding: 4px 4px;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    margin-left: 2px;
+    cursor: pointer;
+    user-select: none;
+    float: right;
+  }
+  .image:hover{
+    filter: brightness(120%);
+  }
+  .image:active{
+    filter: brightness(90%);
+  }
+  .link {
+    width: 30%;
+    height: 9%;
+    font-family: Montserrat, serif;
+    font-size: 13px;
+    line-height: 16px;
+    display: block;
+    cursor: initial;
+  }
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  .btnEncrypt {
+    background-color: #995a5a;
+    font-family: Montserrat, serif;
+    font-size: 15px;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    user-select: none   
+  }
+  /*.btnEncrypt:disabled,*/
+  /*button[disabled]{*/
+  /*  background: #6e6e6e;*/
+  /*  cursor: none;*/
+  /*}*/
+  .btnEncrypt:hover {
+    filter: brightness(120%);
+  }
+  .btnEncrypt:active {
+    filter: brightness(90%);
+  }
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 15px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+  }
+
+
+  /*.link {*/
+  /*  float: right;*/
+  /*  display: flex;*/
+  /*  height: 15px;*/
+  /*  width: 300px;*/
+  /*}*/
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75{
+      width: 100%;
+      margin-top: 0;
+    }
+    .link {
+      width: 70%;
+    }
+    .share{
+      width: 75%;
+    }
+    .btnEncrypt {
+        width: 90%;
+        margin-top: 0;
+      }
+  }
+  
+
+
+
+
+/*.conteiner{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.btnEncrypt:hover{
+    filter: brightness(120%)
+}
+.btnEncrypt:active{
+    filter: brightness(90%)
+}
+.btnEncrypt {
+    width: 50%;
+    height: 20px;
+    background-color: blueviolet;
+    border-radius: 20%;
+    text-align: center;
+    font-size: xx-small;
+    user-select: none
+}
+.ourText {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}*/
